@@ -1,11 +1,10 @@
 package service;
 
 import adapter.PaymentProcessor;
-import model.Cart;
-import observer.OrderObserver;
-
 import java.util.ArrayList;
 import java.util.List;
+import model.Cart;
+import observer.OrderObserver;
 
 public class OrderService {
 
