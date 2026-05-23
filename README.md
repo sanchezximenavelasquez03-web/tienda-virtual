@@ -101,11 +101,8 @@ java -Dfile.encoding=UTF-8 -cp out Main
 ---
 
 ## Salida en consola
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/80237386-6a35-4a6b-a00d-6540988dc523" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/01d3a132-1cc4-4239-822a-962ba741edf9" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4ea00f92-0f8f-4856-8119-ef475fe014e6" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/de84b08c-3612-4725-b76b-fb2f17711727" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3d7c4aaa-293f-404e-8604-25500c204815" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/87185274-1d72-4d68-a4dd-109b9fb4e09b" />
 
-           Evento registrado: Compra confirmada por S/ 2720.00 con PayPal (via Adapter).
 
-  Flujo completado. Todos los patrones aplicados.
-```
