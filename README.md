@@ -101,85 +101,10 @@ java -Dfile.encoding=UTF-8 -cp out Main
 ---
 
 ## Salida en consola
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/80237386-6a35-4a6b-a00d-6540988dc523" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/01d3a132-1cc4-4239-822a-962ba741edf9" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4ea00f92-0f8f-4856-8119-ef475fe014e6" />
 
-```
-     TIENDA VIRTUAL — PATRONES DE DISEÑO
-     Strategy  |  Adapter  |  Observer
-
-
-  1. CATÁLOGO DE PRODUCTOS
-
-  Productos registrados:
-    • Laptop Lenovo        S/ 2500.0  x1
-    • Mouse Inalámbrico    S/  85.0  x2
-    • Teclado Mecánico     S/ 150.0  x1
-
-
-  2. CARRITO DE COMPRAS
-
-  Agregando productos al carrito:
-  [+] Agregado: Laptop Lenovo  (S/ 2500.00)
-  [+] Agregado: Mouse Inalámbrico  (S/ 85.00)
-  [+] Agregado: Teclado Mecánico  (S/ 150.00)
-
-
-  3. PATRÓN STRATEGY — DESCUENTOS
-
-  Estrategia activa: Sin descuento
-  Total (sin descuento):    S/ 2820.00
-
-  Estrategia activa: 10.0% de descuento porcentual
-  Total (10% descuento):   S/ 2538.00
-
-  Estrategia activa: Descuento fijo de S/ 100.00
-
-  ┌─────────────────────────────────────────┐
-  │           RESUMEN DEL CARRITO           │
-  ├─────────────────────────────────────────┤
-  │  Laptop Lenovo         S/ 2500.00       │
-  │  Mouse Inalámbrico     S/  170.00       │
-  │  Teclado Mecánico      S/  150.00       │
-  ├─────────────────────────────────────────┤
-  │  Subtotal:                  S/ 2820.00  │
-  │  Descuento:                -S/  100.00  │
-  │  TOTAL A PAGAR:             S/ 2720.00  │
-  └─────────────────────────────────────────┘
-
-
-  4. PATRÓN ADAPTER — MÉTODOS DE PAGO
-
-  Procesadores disponibles:
-    [1] PayPal (via Adapter)
-    [2] Tarjeta de Crédito
-    [3] Yape
-
-  Método seleccionado: PayPal (via Adapter)
-
-
-  5. PATRÓN OBSERVER — OBSERVADORES
-
-  Observadores registrados:
-    • EmailNotificationObserver
-    • InventoryObserver
-    • AdminNotificationObserver
-
-
-  6. CONFIRMACIÓN DE COMPRA
-
-  ── Procesando pago con PayPal (via Adapter) ──
-  [Adapter] Convirtiendo llamada pagar() → makePayment("PEN", monto)
-  [PayPal API] Transacción procesada: PEN 2720.00
-  [PayPal API] Confirmación enviada a la cuenta PayPal registrada.
-
-  ✔  Compra confirmada por S/ 2720.00 con PayPal (via Adapter).
-
-  ── Notificando observadores ──
-  [Email]  Enviando correo al cliente...
-           Asunto: Confirmación de compra
-           Detalle: Compra confirmada por S/ 2720.00 con PayPal (via Adapter).
-  [Inventario]  Actualizando stock de productos...
-                Compra confirmada por S/ 2720.00 con PayPal (via Adapter).
-  [Admin]  Notificando al administrador del sistema...
            Evento registrado: Compra confirmada por S/ 2720.00 con PayPal (via Adapter).
 
   Flujo completado. Todos los patrones aplicados.
